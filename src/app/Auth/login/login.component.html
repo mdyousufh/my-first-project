@@ -1,0 +1,13 @@
+<form [formGroup]="loginForm" class="form-group row text-align-center">
+    <div class="col-md-7">
+        <label class="form-label">User Name:</label>
+        <input class="form-control" type="text" formControlName="userName">
+    </div>
+    <div class="col-md-7">
+        <label class="form-label">Email:</label>
+        <input class="form-control" type="text" formControlName="userEmail">
+    </div>
+    <div class="col-md-7">
+        <button class="btn btn-primary" (click)="gotoSignUp()">login</button>
+    </div>
+</form>
